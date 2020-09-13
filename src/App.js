@@ -6,7 +6,7 @@ import DesktopNav from './components/navbar/desktop-nav';
 import MobileNav from './components/navbar/mobile-nav';
 import Backdrop from "./components/navbar/backdrop";
 import Hero from './components/hero/hero';
-import Portfolio from "./components/portfolio/portfolio";
+//import Portfolio from "./components/portfolio/portfolio";
 import Partners from "./components/partners/partners";
 import About from "./components/about/about";
 import Blog from "./components/blog/blog";
@@ -34,6 +34,7 @@ class App extends React.Component {
       this.setState({ userIsScrolled: false });
     }
   };
+  
   // On closeMobileMenu click close navbar
   closeMobileMenu = () => {
     this.setState({ mobileNavbarOpen: false });
@@ -68,9 +69,9 @@ class App extends React.Component {
           mobileMenuOpen={this.mobileMenuOpen}
         />
         <Hero />
-        <Portfolio />
-        <Partners />
+        {/* <Portfolio /> */}        
         <About />
+        <Partners />
         <Blog />
         <Contact />
         <Footer />

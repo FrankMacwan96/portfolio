@@ -17,22 +17,21 @@ const contactInfo = () => (
         <Col xs={12} lg={3} className="contact__info">
           <ContactInfoBox
             icon={ContactInfoIcon1}
-            textLine1="1211 Awesome Avenue,"
-            textLine2="NY USD"
+            textLine1="203 - 1901 Martin Groove Rd,Etobicoke, ON, M9V 3T1,"
+            textLine2="CANADA"
           />
         </Col>
         <Col xs={12} lg={3} className="contact__info">
           <ContactInfoBox
             icon={ContactInfoIcon2}
-            textLine1="+00 123 - 456 -78"
-            textLine2="+00 987 - 654 -32"
+            textLine1="+1 (519) 551 9627"
           />
         </Col>
         <Col xs={12} lg={3} className="contact__info">
           <ContactInfoBox
             icon={ContactInfoIcon3}
-            textLine1="mint@mintmail.com"
-            textLine2=""
+            textLine1="macwanf@uwindsor.ca"
+            
           />
         </Col>
       </Row>

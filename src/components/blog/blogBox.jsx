@@ -5,10 +5,12 @@ import "./blogBox.scss";
 const blog = (props) => (
     <div className="blog__box">
       <div className="blog__image">
+      <a href={props.article.url}>
         <img src={props.article.image} alt="blog story" />
         <div className="blog__hover flex-center">
-          <h4 className="font30 weight800">READ MORE</h4>
+          <h4 className="font30 weight800">VIEW CODE</h4>
         </div>
+        </a>
       </div>
       <div className="blog__info">
         <h4 className="font15 weight800">{props.article.title}</h4>

@@ -95,7 +95,7 @@ body {
 
 
 
-  height: 500vh;
+  height: 300vh;
 
 
 }
@@ -235,10 +235,16 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 4rem;
 }
 .font60 {
-  font-size: 6rem;
+  font-size: 7rem;
   line-height:8rem;
 }
 
+.highlight{
+  text-shadow: 0 0 4px $main-color;
+  &hover{
+    text-shadow: 5px 3px 3px $main-color;
+  }
+}
 p {
   font-weight: 500;
   font-size: 1.6rem;

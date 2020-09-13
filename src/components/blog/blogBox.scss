@@ -4,7 +4,7 @@
   background-color: $white-color;
   width: 100%;
   max-width: 370px;
-  min-height: 460px;
+  min-height: 650px;
   position: relative;
   margin: 30px auto;
 
@@ -35,12 +35,15 @@
       opacity: 1;
     }
   }
-
+  a:link{
+    text-decoration: none;
+  }
   .blog__info {
     padding: 35px;
 
     h4 {
       text-transform: uppercase;
+  
     }
   }
 }
