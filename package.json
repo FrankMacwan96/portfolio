@@ -2,7 +2,7 @@
   "name": "mint-portfolio-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://FrankMacwan96.gihub.io/Frank_Macwan_Portfolio",
+  "homepage": "http://FrankMacwan96.github.io/Frank_Macwan_Portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
