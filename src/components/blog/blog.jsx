@@ -4,12 +4,12 @@ import Swiper from "react-id-swiper";
 import "./blog.scss";
 import "swiper/css/swiper.css";
 // Assets
-import animenews from "../../assets/blog/animenews.png";
+import animenews from "../../assets/blog/animenews.PNG";
 import astutebell from "../../assets/blog/astutebell.jpg";
 import bookstore from "../../assets/blog/bookstore.png";
 import chatterpi from "../../assets/blog/chatterpi.jpg";
 import fastfind from "../../assets/blog/fastfind.jpg";
-import notes from "../../assets/blog/Notes.png";
+import notes from "../../assets/blog/Notes.PNG";
 import tictactoe from "../../assets/blog/TicTacToe.png";
 import spfx from "../../assets/blog/spfx.jpg";
 // Components
